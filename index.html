@@ -14,197 +14,207 @@
     />
 
     <!-- Local Styles -->
+    <style>
+      .bg-custom1 {
+        background-color: #feeae9;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <div class="container pb-5">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img
-                src="./images/logo.png"
-                alt=""
-                width="164"
-                class="d-inline-block align-text-top"
-              />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Shoes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Backpack</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link">Subscribe</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-
-    <!-- Main Section -->
-    <main>
-      <section class="hero-slider">
+    <header class="">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light pb-5">
         <div class="container">
-          <div
-            id="carouselExampleSlidesOnly"
-            class="carousel slide"
-            data-bs-ride="carousel"
+          <a class="navbar-brand" href="#">
+            <img
+              src="./images/logo.png"
+              alt=""
+              width="164"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <div class="carousel-inner">
-              <div class="carousel-item active p-3 bg bg-info rounded">
-                <div class="row row-cols-1 row-cols-md-2 align-items-center">
-                  <div class="col p-5">
-                    <h1 class="h1">Cool Dude Headphone</h1>
-                    <p>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Aliquam, exercitationem?
-                    </p>
-                    <span class="d-block fs-1 fw-bold text-danger">$300</span>
-                    <a href="" class="btn btn-warning fw-bold mt-2">Buy Now</a>
-                  </div>
-                  <div class="col">
-                    <img
-                      src="./images/banner-images/headphone.png"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Backpack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Slider -->
+      <section class="hero-slider container">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active p-1 bg-custom1 rounded">
+              <div class="row align-items-center">
+                <div class="col col-12 col-sm-8 p-5">
+                  <h1 class="h1">Cool Dude Headphone</h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquam, exercitationem?
+                  </p>
+                  <span class="d-block fs-1 fw-bold text-danger">$300</span>
+                  <a href="" class="btn btn-lg btn-warning fw-bold mt-2"
+                    >Buy Now</a
+                  >
+                </div>
+                <div class="col col-12 col-sm-4">
+                  <img
+                    src="./images/banner-images/headphone.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
                 </div>
               </div>
+            </div>
 
-              <div class="carousel-item p-3 bg bg-info rounded">
-                <div class="row row-cols-1 row-cols-md-2 align-items-center">
-                  <div class="col p-5">
-                    <h1 class="h1">Cool Dude Headphone</h1>
-                    <p>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Aliquam, exercitationem?
-                    </p>
-                    <span class="d-block fs-1 fw-bold text-danger">$300</span>
-                    <a href="" class="btn btn-warning fw-bold mt-2">Buy Now</a>
-                  </div>
-                  <div class="col">
-                    <img
-                      src="./images/banner-images/tv.png"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
+            <div class="carousel-item p-1 bg-custom1 rounded">
+              <div class="row align-items-center">
+                <div class="col col-12 col-sm-8 p-5">
+                  <h1 class="h1">Cool Dude Headphone</h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquam, exercitationem?
+                  </p>
+                  <span class="d-block fs-1 fw-bold text-danger">$300</span>
+                  <a href="" class="btn btn-lg btn-warning fw-bold mt-2"
+                    >Buy Now</a
+                  >
+                </div>
+                <div class="col col-12 col-sm-4">
+                  <img
+                    src="./images/banner-images/tv.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
                 </div>
               </div>
+            </div>
 
-              <div class="carousel-item p-3 bg bg-info rounded">
-                <div class="row row-cols-1 row-cols-md-2 align-items-center">
-                  <div class="col p-5">
-                    <h1 class="h1">Cool Dude Headphone</h1>
-                    <p>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Aliquam, exercitationem?
-                    </p>
-                    <span class="d-block fs-1 fw-bold text-danger">$300</span>
-                    <a href="" class="btn btn-warning fw-bold mt-2">Buy Now</a>
-                  </div>
-                  <div class="col">
-                    <img
-                      src="./images/banner-images/xbox.png"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
+            <div class="carousel-item p-1 bg-custom1 rounded">
+              <div class="row align-items-center">
+                <div class="col col-12 col-sm-8 p-5">
+                  <h1 class="h1">Cool Dude Headphone</h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquam, exercitationem?
+                  </p>
+                  <span class="d-block fs-1 fw-bold text-danger">$300</span>
+                  <a href="" class="btn btn-lg btn-warning fw-bold mt-2"
+                    >Buy Now</a
+                  >
+                </div>
+                <div class="col col-12 col-sm-4">
+                  <img
+                    src="./images/banner-images/xbox.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+    </header>
 
+    <!-- Main Section -->
+    <main>
       <!-- showoff section -->
-      <section class="show-off mt-5">
-        <div class="container">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2">
-            <div class="col">
-              <div
-                class="
-                  show-off-item
-                  d-flex
-                  justify-content-between justify-content-between
-                  align-items-center
-                  p-2
-                  bg-warning
-                  text-white
-                  rounded-3
-                "
-              >
-                <h2 class="h2">Watch</h2>
-                <img
-                  style="width: 80px"
-                  src="./images/categories/watch.png"
-                  alt=""
-                />
-              </div>
+      <section class="show-off mt-5 container">
+        <div
+          class="
+            row row-cols-1 row-cols-sm-2 row-cols-md-3
+            g-2
+            justify-content-center
+          "
+        >
+          <div class="col">
+            <div
+              class="
+                show-off-item
+                d-flex
+                justify-content-between justify-content-between
+                align-items-center
+                p-2
+                bg-warning
+                text-white
+                rounded-3
+              "
+            >
+              <h2 class="h2">Watch</h2>
+              <img
+                style="width: 80px"
+                src="./images/categories/watch.png"
+                alt=""
+              />
             </div>
-            <div class="col">
-              <div
-                class="
-                  show-off-item
-                  d-flex
-                  justify-content-between justify-content-between
-                  align-items-center
-                  p-2
-                  bg-primary
-                  text-white
-                  rounded-3
-                "
-              >
-                <h2 class="h2">Shoes</h2>
-                <img
-                  style="width: 80px"
-                  src="./images/categories/shoes.png"
-                  alt=""
-                />
-              </div>
+          </div>
+          <div class="col">
+            <div
+              class="
+                show-off-item
+                d-flex
+                justify-content-between justify-content-between
+                align-items-center
+                p-2
+                bg-primary
+                text-white
+                rounded-3
+              "
+            >
+              <h2 class="h2">Shoes</h2>
+              <img
+                style="width: 80px"
+                src="./images/categories/shoes.png"
+                alt=""
+              />
             </div>
-            <div class="col">
-              <div
-                class="
-                  show-off-item
-                  d-flex
-                  justify-content-between justify-content-between
-                  align-items-center
-                  p-2
-                  bg-success
-                  text-white
-                  rounded-3
-                "
-              >
-                <h2 class="h2">Bag</h2>
-                <img
-                  style="width: 80px"
-                  src="./images/categories/bag.png"
-                  alt=""
-                />
-              </div>
+          </div>
+          <div class="col">
+            <div
+              class="
+                show-off-item
+                d-flex
+                justify-content-between justify-content-between
+                align-items-center
+                p-2
+                bg-success
+                text-white
+                rounded-3
+              "
+            >
+              <h2 class="h2">Bag</h2>
+              <img
+                style="width: 80px"
+                src="./images/categories/bag.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -218,7 +228,7 @@
             <h2 class="h2">Shoes</h2>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2">
               <div class="col">
-                <div class="card shadow-lg">
+                <div class="card shadow-lg h-100">
                   <img
                     src="./images/shoes/shoe-1.png"
                     class="card-img-top"
@@ -227,16 +237,17 @@
                   <div class="card-body">
                     <h5 class="card-title">Supply 350</h5>
                     <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Some quick example text to build on the card
                     </p>
                     <span class="d-block fs-4 fw-bold">$120</span>
-                    <a href="#" class="btn btn-danger">Go somewhere</a>
+                  </div>
+                  <div class="card-footer border-top-0">
+                    <a href="#" class="btn btn-danger">Buy Now >></a>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card shadow-lg">
+                <div class="card shadow-lg h-100">
                   <img
                     src="./images/shoes/shoe-2.png"
                     class="card-img-top"
@@ -245,16 +256,17 @@
                   <div class="card-body">
                     <h5 class="card-title">Supply 350</h5>
                     <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Some quick example text to build on the card
                     </p>
                     <span class="d-block fs-4 fw-bold">$120</span>
-                    <a href="#" class="btn btn-danger">Go somewhere</a>
+                  </div>
+                  <div class="card-footer border-top-0">
+                    <a href="#" class="btn btn-danger">Buy Now >></a>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card shadow-lg">
+                <div class="card shadow-lg h-100">
                   <img
                     src="./images/shoes/shoe-3.png"
                     class="card-img-top"
@@ -263,11 +275,12 @@
                   <div class="card-body">
                     <h5 class="card-title">Supply 350</h5>
                     <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Some quick example text to build on the card
                     </p>
                     <span class="d-block fs-4 fw-bold">$120</span>
-                    <a href="#" class="btn btn-danger">Go somewhere</a>
+                  </div>
+                  <div class="card-footer border-top-0">
+                    <a href="#" class="btn btn-danger">Buy Now >></a>
                   </div>
                 </div>
               </div>
@@ -282,7 +295,7 @@
 
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2">
               <div class="col">
-                <div class="card shadow-lg">
+                <div class="card shadow-lg h-100">
                   <img
                     src="./images/bags/bag-1.png"
                     class="card-img-top"
@@ -300,7 +313,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card shadow-lg">
+                <div class="card shadow-lg h-100">
                   <img
                     src="./images/bags/bag-2.png"
                     class="card-img-top"
@@ -318,7 +331,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card shadow-lg">
+                <div class="card shadow-lg h-100">
                   <img
                     src="./images/bags/bag-3.png"
                     class="card-img-top"
@@ -337,10 +350,37 @@
               </div>
             </div>
           </div>
-
         </section>
       </section>
+
+      <!-- Contact Section -->
+      <section
+        class="
+          container
+          contact
+          d-flex
+          justify-content-center
+          align-items-center
+          p-5
+          rounded
+          bg-custom1
+          my-5
+        "
+      >
+        <div class="">
+          <h3 class="h3">LET'S STAY IN TOUCH</h3>
+          <h6 class="h6">Get updates on sales, specials and more</h6>
+          <input type="text" class="form-control" />
+          <button class="btn btn-danger mt-1">SUBMIT</button>
+        </div>
+      </section>
     </main>
+
+    <footer class="text-center">
+      <small
+        >©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small
+      >
+    </footer>
 
     <!-- Bootstrap JS -->
     <script
